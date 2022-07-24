@@ -1,0 +1,49 @@
+.cart-name {
+  width: 70%;
+}
+.cart-name h3 {
+  padding: 5px;
+  background-color: #ffc107;
+  color: white;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.pricing {
+  width: 70%;
+}
+.order-button {
+  width: 100%;
+  background-color: #ffc107;
+  height: 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  transition: 0.5s;
+}
+.order-button:hover {
+  background-color: #eeb91c;
+}
